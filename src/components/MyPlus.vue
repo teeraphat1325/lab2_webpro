@@ -6,7 +6,7 @@
         <input type="text" id="num2" v-model.number="num2">
         =
         {{  num1 + num2 }}
-        <button>Calculate</button>
+        <button @click="Calculate()">Calculate</button>
         {{ result }}
     </div>
 </template>
