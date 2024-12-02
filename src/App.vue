@@ -5,9 +5,12 @@ import ReactiveFundamentals from './components/ReactivityFundamentals.vue'
 import FormInputBindings from './components/FormInputBindings.vue'
 import HelloMyName from './components/HelloMyName.vue'
 import Myplus from './components/Myplus.vue'
+import MyBmi from './components/MyBmi.vue'
 </script>
 
 <template>
+  <MyBmi></MyBmi>
+  <hr>
   <Myplus></Myplus>
   <hr>
   <HelloMyName></HelloMyName>
